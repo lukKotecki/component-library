@@ -1,0 +1,19 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+/* #root{
+  width: 100vw;
+  height: 100vh;
+} */
+
+.app-container{
+  width: 600px;
+  min-height: 600px;
+  margin: 20px auto;
+  background-color: #eee;
+  padding: 3em;
+  border-radius: 15px;
+}
