@@ -55,3 +55,53 @@ body, html {
   background-color: #EDE9FE;
   color: #5B21B6;
 }
+
+
+.banner-container{
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 20px;
+  border-radius: 6px;
+  padding: .8em 1.5em;
+  display: flex;
+  margin: 1em;
+}
+.banner-container svg{
+  margin-right: 10px;
+}
+
+.success{
+  background-color: #ECFDF5;
+  color: #065F46;
+}
+.warning{
+  background-color: #FFFBEB;
+  color: #92400E;
+}
+.error{
+  background-color: #FEF2F2;
+  color: #92400E;
+}
+.neutral{
+  background-color: #EFF6FF;
+  columns: #1E40AF;
+}
+
+.banner-text{
+  font-weight: normal;
+  font-size: .9em;
+  margin-top: .3em;
+}
+.banner-text-success{
+  color: #047857;
+}
+.banner-text-warning{
+  color: #B45309;
+}
+.banner-text-error{
+  color: #B45309;
+}
+.banner-text-neutral{
+  color: #1C51B9;
+}

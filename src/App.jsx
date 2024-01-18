@@ -1,6 +1,7 @@
 import React from 'react'
 import Badge from './components/Badge'
-import Banner from './components/Banner'
+import Banner from './components/Banner/Banner'
+import BannerText from './components/Banner/BannerText'
 
 export default function App(){
   return (
@@ -11,7 +12,37 @@ export default function App(){
       <Badge color='yellow' border='square'>Badge</Badge>
       <Badge color='green' border='pill'>Badge</Badge>
       <Badge color='blue' border='square'>Badge</Badge>
-      <Banner>To jest Banner</Banner>
+
+      <Banner type='error'>
+        Tytuł ERRRORA
+        <BannerText>
+          To jest errrrror
+        </BannerText>
+      </Banner>
+      <Banner type='success'>
+        Tytuł sukcesu
+        <BannerText>
+          UDAŁO SIĘ
+        </BannerText>
+      </Banner>
+      <Banner type='warning'>
+        Warning !
+        <BannerText>
+          To text warningu
+        </BannerText>
+      </Banner>
+      <Banner>
+        Taki tam neutral
+        <BannerText>
+          To text neutralny
+        </BannerText>
+      </Banner>
+      <Banner>
+        To jest mój Banner
+      </Banner>
+      <Banner type='error'>
+        To jest mój ERROR!!
+      </Banner>
     </div>
     
   )
