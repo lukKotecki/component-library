@@ -48,7 +48,8 @@ export default function App(){
 
       <Card>
         <CardTitle>
-          To jest tytul
+          To jest tytul długi ze ja pierdziele
+          To jest tytul długi ze ja pierdziele
         </CardTitle>
         To jest jakis opis
       </Card>
