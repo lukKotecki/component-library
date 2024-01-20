@@ -2,6 +2,8 @@ import React from 'react'
 import Badge from './components/Badge'
 import Banner from './components/Banner/Banner'
 import BannerText from './components/Banner/BannerText'
+import Card from './components/Card/Card'
+import CardTitle from './components/Card/CardTitle'
 
 export default function App(){
   return (
@@ -43,6 +45,14 @@ export default function App(){
       <Banner type='error'>
         To jest mój ERROR!!
       </Banner>
+
+      <Card>
+        <CardTitle>
+          To jest tytul
+        </CardTitle>
+        To jest jakis opis
+      </Card>
+
     </div>
     
   )

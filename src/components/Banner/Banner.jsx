@@ -3,7 +3,7 @@ import BannerText from './BannerText'
 
 const ThemeContext = React.createContext()
 
-export default function Banner({children, type='neutral'}) {
+export default function Banner({children, type='neutralgit statu'}) {
     
     let icon =''
     switch(type){
