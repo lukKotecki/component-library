@@ -10,7 +10,7 @@ body, html {
 } */
 
 .app-container{
-  width: 600px;
+  max-width: 800px;
   min-height: 600px;
   margin: 20px auto;
   background-color: #eee;
