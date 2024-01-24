@@ -1,9 +1,10 @@
 import React from 'react'
-import Badge from './components/Badge'
+import Badge from './components/Badge/Badge'
 import Banner from './components/Banner/Banner'
 import BannerText from './components/Banner/BannerText'
 import Card from './components/Card/Card'
 import CardTitle from './components/Card/CardTitle'
+import Testimonials from './components/Testimonials/Testimonials'
 
 export default function App(){
   return (
@@ -49,10 +50,17 @@ export default function App(){
       <Card>
         <CardTitle>
           To jest tytul długi ze ja pierdziele
-          To jest tytul długi ze ja pierdziele
         </CardTitle>
-        To jest jakis opis
+         jakis opis
       </Card>
+      <Card>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda corporis nulla adipisci illum. Illum, rerum ut. At beatae odit ad ullam porro, laborum sequi suscipit! Earum vel est accusantium!
+         jakis opis
+      </Card>
+
+      <Testimonials>
+          To jest testimonial
+      </Testimonials>
 
     </div>
     

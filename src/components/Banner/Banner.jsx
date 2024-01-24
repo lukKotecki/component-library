@@ -1,9 +1,10 @@
 import React from 'react'
 import BannerText from './BannerText'
+import './banner.css'
 
 const ThemeContext = React.createContext()
 
-export default function Banner({children, type='neutralgit statu'}) {
+export default function Banner({children, type }) {
     
     let icon =''
     switch(type){
