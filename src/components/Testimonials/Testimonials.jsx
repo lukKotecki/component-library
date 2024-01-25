@@ -6,7 +6,10 @@ export default function Testimonials({ image, name,testimonial,title, children }
 
     return (
         <div className='testimonials-main-container'>
-            <img src={image} />
+        
+            <div className='image-container'>
+                <img className='image' src={image} />
+            </div>
               {children}
               <div className='testimonial-content'>
                 <span><RiDoubleQuotesL /></span>
