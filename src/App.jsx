@@ -6,6 +6,7 @@ import Card from './components/Card/Card'
 import CardTitle from './components/Card/CardTitle'
 import Testimonials from './components/Testimonials/Testimonials'
 import avatar from './assets/avatar-photo.jpg'
+import Tooltip from './components/Tooltip/Tooltip.jsx'
 
 export default function App(){
 
@@ -67,6 +68,10 @@ export default function App(){
         testimonial='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quos eum quibusdam quod quo dicta sit voluptate! Commodi unde adipisci culpa autem sequi voluptatibus fuga obcaecati nihil? Vero, voluptatum animi.'
         title='Frontend developer'
       />
+
+      <Tooltip>
+        zawartosc
+      </Tooltip>
 
     </div>
     
