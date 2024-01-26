@@ -8,6 +8,9 @@ import Testimonials from './components/Testimonials/Testimonials'
 import avatar from './assets/avatar-photo.jpg'
 
 export default function App(){
+
+
+
   return (
     <div className='app-container'>
       <Badge border='square'>Badge</Badge>

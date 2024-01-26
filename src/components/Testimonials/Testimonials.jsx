@@ -1,21 +1,21 @@
 import React from 'react'
-import './Testimonials.css'
 import { RiDoubleQuotesL } from "react-icons/ri";
+import classes from './Testimonials.module.css'
 
 export default function Testimonials({ image, name,testimonial,title, children }){
 
     return (
-        <div className='testimonials-main-container'>
+        <div className={`${classes.testimonialsMainContainer}`}>
         
-            <div className='image-container'>
-                <img className='image' src={image} />
+            <div className={classes.imageContainer}>
+                <img className={classes.image} src={image} />
             </div>
               {children}
-              <div className='testimonial-content'>
+              <div className={classes.testimonialContent}>
                 <span><RiDoubleQuotesL /></span>
-                <p className='testimolial'>{testimonial}</p>
-                <p className='name'>{name}</p>
-                <p className='title'>{title}</p>
+                <p className={classes.testimonial}>{testimonial}</p>
+                <p className={classes.name}>{name}</p>
+                <p className={classes.title}>{title}</p>
               </div>
         </div>
     )

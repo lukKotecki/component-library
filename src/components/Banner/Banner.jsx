@@ -1,11 +1,13 @@
 import React from 'react'
 import BannerText from './BannerText'
-import './banner.css'
+import style from './Banner.module.css'
 
 const ThemeContext = React.createContext()
 
 export default function Banner({children, type }) {
     
+    const obj = {type, style}
+
     let icon =''
     switch(type){
         case 'success':
@@ -30,8 +32,8 @@ export default function Banner({children, type }) {
     }
 
     return(
-        <ThemeContext.Provider value={type}>
-            <div className={'banner-container '+type}>
+        <ThemeContext.Provider value={obj}>
+            <div className={`${style['banner-container']} ${style[type]}`}>
                 {icon} 
                 <div>{children}</div>
             </div>
