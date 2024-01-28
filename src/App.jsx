@@ -69,8 +69,12 @@ export default function App(){
         title='Frontend developer'
       />
 
-      <Tooltip>
-        zawartosc
+      <Tooltip title='Gooood!'>
+        KLIKNIJ
+      </Tooltip>
+
+      <Tooltip title='ukryta wiadomosc' color='blue' type='light'>
+        Click here :)
       </Tooltip>
 
     </div>

@@ -1,3 +1,52 @@
 .tooltip-main-container{
-    background-color: red;
+    font-family: Inter, sans-serif;
+    /* background-color: #ccd; */
+    padding: 2px 5px;
+    margin: 8px auto;
+    position: relative;
+    text-align: center;
+    width:fit-content;
+    font-weight: bold;
+}
+.popup{
+    position: absolute;
+    font-weight: normal;
+    bottom:125%;
+    /* background-color: black; */
+    color: #fff;
+    text-align: center;
+    padding: .4em .6em;
+    border-radius: 6px;
+    border:solid 1px white;
+    display: flex;
+}
+.popup::after {
+    content: " ";
+    position: absolute;
+    top: 92%; /* At the bottom of the tooltip */
+    left: 30%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent transparent;
+}
+
+.popup svg{
+    width: 30px;
+}
+
+.tooltip-text{
+    margin:0 10px;
+}
+
+.children{
+    cursor:pointer;
+}
+
+
+.light-blue{
+    background-color: blue;
+}
+.light-blue:after{
+    border-color: blue transparent transparent transparent;
 }
