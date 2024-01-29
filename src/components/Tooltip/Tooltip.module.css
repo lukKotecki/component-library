@@ -10,15 +10,14 @@
 }
 .popup{
     position: absolute;
-    font-weight: normal;
-    bottom:125%;
+    font-weight: bold;
+    bottom:102%;
     /* background-color: black; */
     color: #fff;
     text-align: center;
     padding: .4em .6em;
     border-radius: 6px;
     border:solid 1px white;
-    display: flex;
 }
 .popup::after {
     content: " ";
@@ -31,8 +30,21 @@
     border-color: transparent transparent transparent transparent;
 }
 
+.title{
+
+    display: flex;
+}
+.description{
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+
+
+
 .popup svg{
     width: 30px;
+    
 }
 
 .tooltip-text{
@@ -43,10 +55,61 @@
     cursor:pointer;
 }
 
+.dark{
+    background-color: #262626;
+}
+.dark:after{
+    border-color: #262626 transparent transparent transparent;
+}
+.light{
+    background-color: #fff;
+    color:#111827;
+}
+.light:after{
+    border-color: #fff transparent transparent transparent;
+}
 
+.blue{
+    background-color: #1E40AF;
+}
+.blue:after{
+    border-color: #1E40AF transparent transparent transparent;
+}
 .light-blue{
-    background-color: blue;
+    background-color: #E0E7FF;
+    color:#1E40AF;
+    
 }
 .light-blue:after{
-    border-color: blue transparent transparent transparent;
+    border-color: #E0E7FF transparent transparent transparent;
+}
+
+
+.purple{
+    background-color: #A9229B;
+}
+.purple:after{
+    border-color: #A9229B transparent transparent transparent;
+}
+.light-purple{
+    background-color: #FFF3FC;
+    color:#A9229B;
+}
+.light-purple:after{
+    border-color: #FFF3FC transparent transparent transparent;
+}
+
+
+.green{
+    background-color: #3C8C4E;
+}
+.green:after{
+    border-color: #3C8C4E transparent transparent transparent;
+}
+.light-green{
+    background-color: #E7FFF3;
+    color:#3C8C4E;
+}
+.light-green:after{
+    border-color: #E7FFF3 transparent transparent transparent;
 }

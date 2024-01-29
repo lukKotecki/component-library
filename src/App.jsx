@@ -62,18 +62,42 @@ export default function App(){
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda corporis nulla adipisci illum. Illum, rerum ut. At beatae odit ad ullam porro, laborum sequi suscipit! Earum vel est accusantium!
          jakis opis
       </Card>
+
+
+      <Tooltip title='TO jest tytul' description='to jest moje zdjeceie'>
       <Testimonials 
         image={avatar}
         name='Lukas K'
         testimonial='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quos eum quibusdam quod quo dicta sit voluptate! Commodi unde adipisci culpa autem sequi voluptatibus fuga obcaecati nihil? Vero, voluptatum animi.'
         title='Frontend developer'
-      />
+        />
+        </Tooltip>
 
-      <Tooltip title='Gooood!'>
+      <Tooltip title='Gooood!'description='To jest opis'>
+        KLIKNIJ
+      </Tooltip>
+      <Tooltip title='Gooood!' color='light'>
         KLIKNIJ
       </Tooltip>
 
-      <Tooltip title='ukryta wiadomosc' color='blue' type='light'>
+      <Tooltip title='NOTE' description='To jest opis' color='blue' type='light'>
+        Click here :)
+      </Tooltip>
+      <Tooltip description='This is description' color='blue'>
+        Click here :)
+      </Tooltip>
+      
+      <Tooltip title='NOTE' description='This is description' color='purple' type='light'>
+        Click here :)
+      </Tooltip>
+      <Tooltip title='NOTE' description='This is description' color='purple' >
+        Click here :)
+      </Tooltip>
+
+      <Tooltip title='NOTE' description='This is description' color='green' type='light'>
+        Click here :)
+      </Tooltip>
+      <Tooltip title='NOTE' description='This is description' color='green' >
         Click here :)
       </Tooltip>
 
