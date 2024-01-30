@@ -7,6 +7,7 @@ import CardTitle from './components/Card/CardTitle'
 import Testimonials from './components/Testimonials/Testimonials'
 import avatar from './assets/avatar-photo.jpg'
 import Tooltip from './components/Tooltip/Tooltip.jsx'
+import Toast from './components/Toast/Toast.jsx'
 
 export default function App(){
 
@@ -101,8 +102,14 @@ export default function App(){
         Click here :)
       </Tooltip>
 
-    </div>
-    
+      <Toast>To jest zawartosc toastu bardzo dluga i przynudnawa</Toast>
+      <Toast type='success' description='to jest opis'>To jest zawartosc toastu</Toast>
+      <Toast type='information' description='to jest opis bardzo dlugi i przynudnawy'>To jest zawartosc toastu</Toast>
+      <Toast type='warning'>To jest zawartosc toastu</Toast>
+      <Toast type='error'>To jest zawartosc toastu</Toast>
+
+
+    </div>    
   )
 }
 
